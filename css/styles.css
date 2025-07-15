@@ -10,7 +10,7 @@
     padding: 20px;
     border: 2px solid #8e448e;
     border-radius: 20px 40px 50px 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .circle{
@@ -20,7 +20,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .ellipse{
@@ -30,4 +30,17 @@
         border-radius: 50% / 20%;
         text-align: center;
         line-height: 100px;
+        margin-bottom: 20px;
+}
+
+.custom-border{
+    width: 300px;
+    padding: 20px;
+    border-bottom: 5px solid #16a085;
+    border-radius: 5px;
+    background-color: aqua;
+    
+}
+.custom-border:hover{
+    background-color: aquamarine;
 }
